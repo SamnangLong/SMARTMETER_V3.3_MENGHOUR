@@ -34,6 +34,7 @@ function onConnect() {
 
   // Once a connection has been made, make a subscription and send a message.
   console.log("onConnect");
+  console.log('Connection successful!');
   connection_status = true ;
   // alert("Connect to server is success.")
 
