@@ -5,7 +5,7 @@ var e1='0', w1='0' ,e2='0', w2='0',e3='0', w3='0';
 function BtnConnect(){
   
     clientID = document.getElementById("box_clientID").value;
-    host = 'pf-0ry859c31yp7gxcum4a7.cedalo.cloud';
+    host = 'pf-i8jlmc6hgrtkssv5sgqz.cedalo.cloud';
     port = 443;
 
     // Create a client instance
@@ -22,8 +22,8 @@ function BtnConnect(){
     // onFailure: onFailure,
     useSSL: true,
 
-    userName: 'Machine1',
-    password: 'admin',
+    userName: 'ADMIN',
+    password: 'admin123',
     mqttVersion:4
 });
 }
